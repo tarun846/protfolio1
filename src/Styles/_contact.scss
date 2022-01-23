@@ -1,0 +1,30 @@
+.contact{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .contact-left{
+        h1{
+            font-size: 1.8rem;
+        }
+    }
+    .contact-right{
+        width: 50%;
+        .contact-right-content{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 10px   ;
+           
+            height: 100%;
+            align-items: center;
+        }
+        .contact-right-bottom{
+            margin-top: 5rem;
+            h1{
+                font-family: sans-serif;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

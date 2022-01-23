@@ -1,0 +1,207 @@
+@media all and (max-width: 1024px){
+    header{
+        font-size: 1.5vw;
+    }
+
+ .hero{
+    .hero-link{
+        padding-top: 2rem;
+    }
+ } 
+   
+}
+
+@media all and (max-width: 860px){
+:root{
+    --size :2000;
+}
+.hero{
+
+    .hero-text{
+    position: absolute;
+    top: 0;
+   
+    h5{
+        display: none;
+    }
+    .gada{
+      
+        margin-top: 4rem;
+       
+        max-width: 70%;
+        line-height: 3rem;
+        display: block;
+        font-size: 40px;
+    }
+ 
+    
+}
+.hero-picture{
+    top: 0px;
+    // bottom: 10px;
+    width: 40vh;
+}
+.hero-link{
+    display: none;
+}
+}
+.scroll{
+    width: 160px !important;
+    top: calc(-210px + 100vh);
+    left: calc(-5000vw / var(--size));
+}
+.marriqe-item{
+    font-size: calc(3900vw / var(--size));
+}
+.about{
+    padding: 0px 9vw;
+    padding-bottom: 10vw;
+flex-direction: column-reverse;
+.about-left{
+    margin-top: 2rem;
+    .Accordion  .accordion  h1 {
+       font-size: 1rem;
+
+    }
+}
+.about-right{
+    padding: 0;
+    .about-IntroShort{
+        font-size: 1.2rem;
+    }
+    .about-IntroLong{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+}
+}
+
+.projects{
+    display: block;
+    .projectsContent{
+        max-width: 100%;
+       
+    }
+    .projectsContent:nth-child(2),.projectsContent:nth-child(4){
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: flex-start;
+    .contact-right{
+        padding-top: 2rem;
+        .contact-right-content{
+            gap: 20px   ;
+            font-size: 1.3rem;
+
+        }
+    }
+}
+
+}
+@media all and (max-width: 750px){
+    header{
+        font-size: 1rem;
+    }
+    .hero{
+        .hero-text{
+
+            .gada{
+                font-size: 2rem;
+            }
+        }
+    }
+    
+}
+@media all and (max-width: 550px){
+    .main-header-component{
+        min-height: 7vh;
+    }
+    header{
+        font-size: 20px;
+       
+         nav{
+                         
+            .nav-list{
+                display: none;
+            }
+            .hamburger-icon{
+                display: block;
+            }
+    
+         }        
+  
+
+    }
+    .hero{
+        width: 100%;
+        .hero-text{
+
+            .gada{
+
+                font-size: 1.6rem;
+                line-height: 2.3rem;
+            }
+        }
+    }
+    .hamburger-icon{
+        display: none;
+    }
+}
+@media all and (max-width: 450px){
+    header{
+        font-size: 1rem;
+    }
+    .hero{
+        display: block;
+        .hero-text{
+        width: 150rem;
+       margin: 0;
+       padding-top: 5rem;
+        //  position: relative;
+            .gada{
+        display: block;
+        text-size-adjust: none;
+                max-width:100%;
+                overflow: unset;
+                // width: 30rem;
+                white-space: pre-wrap ; 
+                line-height: 2.1rem;
+                font-size: 1.9rem;
+                font-weight: bold; 
+            }
+        }
+        .hero-picture{
+           width: 14rem ;
+        }
+    }
+    
+    .marriqe {
+        .marriqe-content {
+            .marriqe-item  {
+                font-size: 10px;
+            }
+        }
+
+    }
+    }  
+      
+    @media all and (max-width: 390px){
+  
+        .hero{
+            .hero-text{
+    
+                .gada{
+                    width: 100%;
+                    font-size: 1.2rem;
+                     padding-bottom: 5rem;
+                }
+            }
+        }
+        
+    }
+    

@@ -1,0 +1,17 @@
+.scroll{
+    /* transform: rotate(360deg); */
+    position: absolute;
+   width: calc(20000vw / var(--size)) !important;
+   left: calc(100vw / var(--size));
+   top: calc(100vh - 10vw);
+   will-change: transform;
+   animation: ui 10s infinite ;
+   }
+   @keyframes ui {
+       0% {
+         transform: rotate(-360deg);
+       }
+       100% {
+         transform: translate(0deg);
+       }
+     };

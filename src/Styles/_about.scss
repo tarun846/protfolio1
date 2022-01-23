@@ -1,0 +1,87 @@
+.about{
+    margin: 2rem auto;
+    padding: 8.15vw calc(9.375vw) ;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    user-select: none;
+    flex-wrap: wrap;
+.about-left{
+    flex: 1 1 40%;
+    .Accordion{
+        margin-top: 2rem;
+    
+        .accordion{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        font-family: sans-serif;
+        cursor: pointer;
+    
+         h1{
+             margin-left: 8px;
+             font-size: 1.6vw;
+             font-family: sans-serif;
+              text-transform: uppercase;
+         }
+        
+        span{
+            width: 16px;
+            height: 4px;
+            background: black;
+            transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        .actual1{
+            transform: translateX(3px)rotate(45deg) translateZ(0px);
+        }
+        .actual2{
+        transform: translateX(-3px) rotate(-45deg) translateZ(0px);
+        }
+        .change{
+            transform: translateX(3px)rotate(0deg) translateZ(0px);
+        }
+    }
+    .accordion-content{
+        display: none;
+        margin-top: 1rem;
+        overflow: hidden;
+        padding-left: 40px;
+        transition: all 100s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        p{
+         line-height: 1.75 !important;
+         font-size: 1.4vw;
+         font-family: sans-serif;
+        }
+      }
+      .AccordionChange{
+        margin-top: 1rem;
+        overflow: hidden;
+        display: block;
+        padding-left: 40px;
+        transition: all 100s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        p{
+         line-height: 1.75 !important;
+         font-size: 16px;
+         font-family: sans-serif;
+        }
+      }
+    }
+}
+.about-right{
+    flex: 2 1 60%;
+    padding-left: 7.2%;
+    .about-IntroShort{
+     font-family: sans-serif;
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+    line-height: 1.5;
+    margin-top: calc(2100vw / var(--size));
+    }
+    .about-IntroLong{
+        font-family: sans-serif;
+        font-size: 1.2vw;
+        opacity: 0.4;
+        line-height: 1.5vw;
+    }
+}
+}

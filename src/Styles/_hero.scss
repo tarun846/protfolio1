@@ -1,0 +1,50 @@
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 100vh;
+    min-height: 600px;
+    width: 100%;
+   
+    .hero-text{
+    
+        margin-top: 3rem;
+        max-width: 100%;
+        font-size: calc(5400vw / var(--size));
+        font-family: sans-serif;
+        line-height: 5.25vw;
+
+    }
+    .hero-picture{
+                 position: absolute;
+                 top: 0px;
+                 right: 0px;
+                 
+                 z-index: -1;
+                
+              
+                height: 100%;
+                width: 21vw;
+                padding: 0;
+                 margin: 0;
+                
+                 object-fit: contain;
+   
+    }
+    .gada{
+        display: none;
+    }
+    .hero-link{
+        position: absolute;
+        top: calc(75vh - 2700vw / var(--size) - 2.5vw);
+        left: 0;
+        padding-top: 1rem;
+      
+        .herolinks{
+            font-size: 1.2rem;
+        }
+         
+    }
+}

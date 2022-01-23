@@ -1,0 +1,47 @@
+.marriqe {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100px;
+    height: 38px;
+    flex-direction: row;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    user-select: none;
+    inset: 0px;
+
+    .marriqe-content {
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      -moz-box-align: center;
+      align-items: center;
+
+  }
+  
+  .marriqe-item {
+    position: relative;
+    
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 1;
+    
+    margin-right: 0.2rem;
+    animation: kf-marquee 2s linear infinite;
+}
+}
+
+
+@keyframes kf-marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }

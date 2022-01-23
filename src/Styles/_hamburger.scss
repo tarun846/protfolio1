@@ -1,0 +1,33 @@
+.Burger_menu-container{
+    display: flex;
+    align-items: center;
+     cursor: pointer;
+     z-index: 1;
+    // width: 10rem;
+    // height: 4rem;
+    .burger_menu-content{
+        display: flex;
+        flex-direction: column;
+        padding-left: 8px;
+        i{
+            margin-top: 4px;
+            background-color: black;
+            width: 20px;
+            height: 4px;
+             
+            // border-radius: 2px;
+        }
+    }
+}
+.open:nth-child(1){
+
+    transform: rotate(45deg) translateY(16px) ;   
+}
+.open:nth-child(2){
+    opacity: 0;
+}
+.open:nth-child(3){
+  
+    transform: rotate(-45deg ) translateY(-10px)  translateX(-5px) ;   
+
+}

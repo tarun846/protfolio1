@@ -1,0 +1,21 @@
+:root{
+    --size : 1400;
+}
+body{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+main{
+  z-index: -1;
+    margin: 0px auto;
+    padding: 0px calc(9.375vw);
+    align-items: center;
+    height: 100%;
+    user-select: none;
+    min-height: 580px;
+}
