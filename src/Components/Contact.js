@@ -15,7 +15,7 @@ function Contact() {
               <a  href = 'https://twitter.com/JJagannathBehe1' > Twitter   </a>
                </div>
              <div> 
-                 <a href = ''  download >
+                 <a href = 'https://goodswdsadsad.com'  download >
                  Resume
                  </a>
                    </div>

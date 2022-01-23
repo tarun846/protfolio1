@@ -45,7 +45,7 @@ function Hero() {
           
              <div className = 'a' >  
                
-                 <img className ='scroll' src={scroll} />
+                 <img className ='scroll' src={scroll} alt = 'scroll' />
             
              </div>
             

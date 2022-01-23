@@ -6,7 +6,7 @@ const ProjectsContent = ({data}) => {
 
     return (
         <div className = 'projectsContent' >
-            <img src ={img} className = 'projectsimage' />
+            <img src ={img} className = 'projectsimage' alt = {img} />
            
             <div className = 'ProjectCaption' > 
               <h1> {title} </h1>

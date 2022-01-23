@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 
 const Kccordion = ({title,text,clicks,index,toggle,kstyles}) => {
 
