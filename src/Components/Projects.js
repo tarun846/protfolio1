@@ -1,7 +1,7 @@
                                                                                                                                                                                                                                                            import React from 'react'
 import Marquee from './Marquee'
-import  project1 from '../Assets/Projects/dynamoFencing.png'  ;
-import  project2 from '../Assets/Projects/cheesyrat.png'  ;
+import  project1 from '../Assets/Projects/Bookapp.png'  ;
+import  project2 from '../Assets/Projects/whatsapp.jpg'  ;
 import  project3 from '../Assets/Projects/foundry.png'  ;
 import  project4 from '../Assets/Projects/hackersent.png'  ;
 import ProjectsContent from './ProjectsContent';
@@ -12,14 +12,14 @@ function Projects() {
         {
            id : 1,
            img :project1,
-           title : ' BooksClub (Coming soon) ',
-           text : " Simulating and Constructing the digital structure that illustrates the experience of your Customer and resonates with it optimizing stucture and flow so that it gives a smooth and flaw less user experience     "   
+           title : ' BooksClub  ',
+           text : "  this project was great fun in this project i have used rest api to fetch data and implemented a search functionality  in  this project i have used react and scss "   
         },
         {
             id : 2 ,
             img :project2,
-            title : 'Dev.to  (Coming soon)',
-            text : 'Your website is the frontpage of your business. It is crucial that your website tells the right story while simultaneously focusing on the usability and customer experience. I take on the design by communicating your brand identity and values to the user. '
+            title : 'WhatsApp',
+            text : ' complete  Whatsapp clone firebase as backend it is a clone  with  complete whatshapp functionality like  creating  rooms ,   image upload , chatting , personalchat , and voice recording'
         },
         {
             id : 3,

@@ -1,6 +1,14 @@
+header{
+  
+    .hamburger-menu{
+        display: none;
+        }
+}
+
 @media all and (max-width: 1024px){
     header{
         font-size: 1.5vw;
+       
     }
 
  .hero{
@@ -112,6 +120,9 @@ flex-direction: column-reverse;
 
             .gada{
                 font-size: 2rem;
+                .hide{
+                    text-decoration: underline;
+                }
             }
         }
     }
@@ -123,7 +134,9 @@ flex-direction: column-reverse;
     }
     header{
         font-size: 20px;
-       
+        .hamburger-menu{
+            display: block;
+            }
          nav{
                          
             .nav-list{
@@ -142,19 +155,31 @@ flex-direction: column-reverse;
         .hero-text{
 
             .gada{
-
+                font-weight: 2;
+                min-width: 100%;
                 font-size: 1.6rem;
                 line-height: 2.3rem;
             }
         }
+        .hero-picture{
+            width: 14rem;
+            margin-top:2rem ;
+            img{
+                position: absolute;
+            bottom: 0;
+            }
+         }
+        
     }
     .hamburger-icon{
         display: none;
     }
+    
 }
 @media all and (max-width: 450px){
     header{
         font-size: 1rem;
+       
     }
     .hero{
         display: block;
@@ -170,14 +195,15 @@ flex-direction: column-reverse;
                 overflow: unset;
                 // width: 30rem;
                 white-space: pre-wrap ; 
-                line-height: 2.1rem;
-                font-size: 1.9rem;
-                font-weight: bold; 
+                line-height: 1.4;
+                font-size: 31px;
+                
+                // font-weight: bold; 
             }
         }
         .hero-picture{
-           width: 14rem ;
-        }
+            width: 14rem ;
+         }
     }
     
     .marriqe {
@@ -188,17 +214,29 @@ flex-direction: column-reverse;
         }
 
     }
+    .marriqe {
+        .marriqe-content {
+            .marriqe-item {
+ font-size: 14px;
+            }
+        }
+    }
     }  
       
     @media all and (max-width: 390px){
   
         .hero{
+            padding: 0;
+            margin: 0;
             .hero-text{
-    
+              padding-top: 5rem;
                 .gada{
                     width: 100%;
-                    font-size: 1.2rem;
-                     padding-bottom: 5rem;
+                    // font-size: 1.2rem;
+                    font-size: 1.9rem;
+                    font-weight: normal;
+                  
+                    //  padding-bottom: 5rem;
                 }
             }
         }

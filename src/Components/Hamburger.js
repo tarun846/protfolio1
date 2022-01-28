@@ -8,7 +8,7 @@ function Hamburger({setok,ok,status,Setstatus}) {
     return (
         <div className = 'Burger_menu-container' 
         role = 'button'
-         onClick ={handleclick}
+        onClick ={handleclick}
         >
             <div className = 'burger_menu-content'>
             <i className = {status} >  </i>

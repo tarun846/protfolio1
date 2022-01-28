@@ -200,7 +200,8 @@ header nav .hamburger-icon {
 }
 
 header nav .hamburger-menu {
-  display: none;
+  -webkit-transform: translateX(350px);
+          transform: translateX(350px);
   position: absolute;
   z-index: -1;
   -webkit-box-shadow: -10px 0px 3px 0px #aaa;
@@ -210,6 +211,8 @@ header nav .hamburger-menu {
   background-color: white;
   width: 70%;
   height: 100vh;
+  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
 }
 
 header nav .hamburger-menu .hamburger-menu-content {
@@ -232,8 +235,11 @@ header nav .hamburger-menu .hamburger-menu-content ul li {
   font-size: 1rem;
 }
 
-#button-open {
-  display: block;
+header nav .button-open {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 }
 
 .hero {
@@ -648,6 +654,10 @@ header nav .hamburger-menu .hamburger-menu-content ul li {
           transform: rotate(-45deg) translateY(-10px) translateX(-5px);
 }
 
+header .hamburger-menu {
+  display: none;
+}
+
 @media all and (max-width: 1024px) {
   header {
     font-size: 1.5vw;
@@ -755,6 +765,9 @@ header nav .hamburger-menu .hamburger-menu-content ul li {
   .hero .hero-text .gada {
     font-size: 2rem;
   }
+  .hero .hero-text .gada .hide {
+    text-decoration: underline;
+  }
 }
 
 @media all and (max-width: 550px) {
@@ -763,6 +776,9 @@ header nav .hamburger-menu .hamburger-menu-content ul li {
   }
   header {
     font-size: 20px;
+  }
+  header .hamburger-menu {
+    display: block;
   }
   header nav .nav-list {
     display: none;
@@ -774,8 +790,18 @@ header nav .hamburger-menu .hamburger-menu-content ul li {
     width: 100%;
   }
   .hero .hero-text .gada {
+    font-weight: 2;
+    min-width: 100%;
     font-size: 1.6rem;
     line-height: 2.3rem;
+  }
+  .hero .hero-picture {
+    width: 14rem;
+    margin-top: 2rem;
+  }
+  .hero .hero-picture img {
+    position: absolute;
+    bottom: 0;
   }
   .hamburger-icon {
     display: none;
@@ -803,9 +829,8 @@ header nav .hamburger-menu .hamburger-menu-content ul li {
     max-width: 100%;
     overflow: unset;
     white-space: pre-wrap;
-    line-height: 2.1rem;
-    font-size: 1.9rem;
-    font-weight: bold;
+    line-height: 1.4;
+    font-size: 31px;
   }
   .hero .hero-picture {
     width: 14rem;
@@ -813,13 +838,23 @@ header nav .hamburger-menu .hamburger-menu-content ul li {
   .marriqe .marriqe-content .marriqe-item {
     font-size: 10px;
   }
+  .marriqe .marriqe-content .marriqe-item {
+    font-size: 14px;
+  }
 }
 
 @media all and (max-width: 390px) {
+  .hero {
+    padding: 0;
+    margin: 0;
+  }
+  .hero .hero-text {
+    padding-top: 5rem;
+  }
   .hero .hero-text .gada {
     width: 100%;
-    font-size: 1.2rem;
-    padding-bottom: 5rem;
+    font-size: 1.9rem;
+    font-weight: normal;
   }
 }
 /*# sourceMappingURL=styles.css.map */

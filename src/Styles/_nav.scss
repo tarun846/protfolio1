@@ -39,8 +39,9 @@ header{
       .hamburger-icon{
         display: none;
         }
-    .hamburger-menu{
-        display: none;
+        .hamburger-menu{
+        // display: none;
+        transform: translateX(350px) ;
         position: absolute;
         z-index: -1;
         box-shadow: -10px 0px 3px 0px #aaa;
@@ -50,6 +51,7 @@ header{
         // color: white;
         width: 70%;
         height: 100vh;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
         .hamburger-menu-content{
             margin-left: 2rem;
             height: inherit;
@@ -65,10 +67,12 @@ header{
             }
         }
     }
+    .button-open{
+        // display: block;
+        transform: translateX(0px) ;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    }
         }
   
 }
 
-#button-open{
-    display: block;
-}
